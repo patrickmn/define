@@ -1,0 +1,24 @@
+Define is a little command-line dictionary that contains words in over 50
+languages, and is always up-to-date.
+
+Define retrieves all its word and phrase definitions from the respective
+Wiktionary for the language queried, e.g. http://en.wiktionary.org.
+
+== Installation
+
+Download Define from http://patrickmylund.com/projects/define/
+
+If you have Go installed, you can run: go get github.com/pmylund/define
+(a define binary will be added to your GOPATH/bin folder)
+
+Note: You do not need to have Go installed to run the stand-alone version.
+
+== Usage
+
+  ./define fishing
+  ./define -l da fiske
+
+Run define without any arguments for details, and "define languages" for a
+list of the supported languages.
+
+See http://patrickmylund.com/projects/define/ for more information.
